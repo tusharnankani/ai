@@ -1,12 +1,23 @@
+'''
+5
+1 2 3 4 5
+3 4 5 6 7
+7 8 9 10 11
+11 12 13 14 15
+1 2 3 4 5
+0
+0
+'''
+
 dx = [-1, +1, 0, 0]
 dy = [0, 0, -1, +1]
 
 def main():
-    n = int(input("Enter size of matrix : "))
+    n = int(input("Enter size of matrix: "))
     mat = take_mat(n)
 
-    cx = int(input("Enter starting x cordinate : "))
-    cy = int(input("Enter starting y cordinate : "))
+    cx = int(input("Enter starting x cordinate: "))
+    cy = int(input("Enter starting y cordinate: "))
 
     px = cx
     py = cy
